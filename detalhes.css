@@ -1,0 +1,39 @@
+/* Estilos específicos para a página de detalhes do produto */
+.card-detalhes {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card-detalhes img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .card-detalhes h2 {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+  
+  .card-detalhes .preco {
+    font-size: 22px;
+    color: #007bff;
+    margin: 10px 0;
+  }
+  
+  .card-detalhes p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .card-detalhes .botao-comprar {
+    margin-top: 20px;
+  }
+  
