@@ -88,8 +88,24 @@ body {
   
   /* Estilos do main */
   main {
-    padding: 20px;
+    padding: 20px;  display: grid;
+    grid-template-columns: auto auto auto auto auto;
   }
+
+  /* CSS media query dentro de um stylesheet */
+@media (max-width: 600px) {
+  main {
+    padding: 20px;  display: grid;
+    grid-template-columns: auto auto ;
+  }
+}
+
+@media (max-width: 400px) {
+  main {
+    padding: 20px;  display: grid;
+    grid-template-columns: auto ;
+  }
+}
   
   /* Estilos dos cards de produto */
   .card {
@@ -106,6 +122,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height:400px;
+    width: 300px !important;
   }
   
   .card:hover {
@@ -147,7 +164,7 @@ body {
   /* Estilos dos itens do carrinho */
   .lista-itens {
     list-style: none;
-    padding: 0;
+    padding: 0; 
   }
   
   .item-carrinho {
@@ -172,4 +189,5 @@ body {
     font-weight: bold;
     margin-top: 20px;
   }
+  
   
